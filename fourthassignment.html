@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms basics</title>
+</head>
+<body>
+    <form method="post" id="profileForm">
+        <fieldset>
+            <legend>
+                Form
+            </legend>
+            <p>
+            <label>FullName:-</label>
+            <input type="text" placeholder="Enter your fullname" name="name" required>
+            </p>
+
+            <p>
+
+                <label>Email Address:-</label>
+                <input type="email"  required>
+            </p>
+
+            <p>
+
+                <label>Password:-</label>
+                <input type="password" minimumlength="6">
+            </p>
+
+            <p>
+
+                <label>Confirm Passsword:-</label>
+                <input type="password" placeholder="Should match password">
+            </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Contact Details
+                </legend>
+                <p>
+
+                    <label>Phone number</label>
+                    <input type="tel" pattern="[0-9]{10}" required>
+                </p>
+
+                <p>
+
+                    <label>Website/Portfolio URL</label>
+                    <input type="url">
+                </p>
+
+                <p>
+
+                    <label>Upload file/Resume</label>]
+                    <input type="file" required>
+                </p>
+                <p>
+                    <label>
+                        Gender
+                    </label><br><br>
+                    Male
+                    <input type="radio" name="c1" value="male">
+                    Female
+                    <input type="radio" name="c1" value="female">
+                     </p>
+                     <p>
+                        <label>Skills</label><br><br>
+
+                        <label>HTML</label>
+
+                        <input type="checkbox" name="check1"><br><br>
+
+                        <label>Javascript</label>
+                        <input type="checkbox" name="check1"><br><br>
+                        
+                        <label>React</label>
+                        <input type="checkbox" name="check1"><br><br>
+                        
+                        <label>Angular</label>
+                        <input type="checkbox" name="check1"><br><br>
+                        
+
+                     </p>
+
+                     <p>
+                         <label>Preferred Location:-</label><br><br>
+                         <select size="1">
+                          <option>Banglore</option>
+                          <option>Vadodara</option>
+                          <option>Pune</option>
+                          <option>Mumbai</option>
+                          <option>Kanpur</option>
+                         </select>
+                     </p>
+                     <p>
+                        <label>Date of birth</label><br><br>
+                        <select size="1">
+                         <option>1</option>
+                         <option>2</option>
+                         <option>3</option>
+                         <option>4</option>
+                         <option>5</option>
+                         <option>6</option>
+                         <option>7</option>
+                         <option>8</option>
+                         <option>9</option>
+                         <option>10</option>
+                        </select>
+                       <select size="1">
+                        <option>Janauary</option>
+                        <option>Feburary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                       </select>
+                     </p>
+                     <p>
+                        <label>Time</label>
+                        <input type="time">
+                
+                     </p>
+                     <p>
+                        <label>Datetime</label>
+                        <input type="datetime-local">
+                     </p>
+
+                     <p>
+                        <label>Favorite color:</label><br><br>
+                        <select size="1">
+                            <option>Red</option>
+                            <option>Blue</option>
+                            <option>Green</option>
+                            <option>White</option>
+                            <option>Orange</option>
+                        </select>
+                     </p>
+                     <p>
+                        <label>Age:</label>
+                        <input type="number" minlength="4" maxlength="5">
+                    </p>
+                        <p>
+                            <label for="myrange">Range your experience(0-20):-</label><br><br>
+                         <input type="range" min="0" max="20">
+                        </p>
+                        <p>
+                            <label>About yourself</label><br><br>
+                            <textarea rows="4"></textarea><br><br>
+                            <label>Address:-</label><br><br>
+                            <textarea rows="4" cols="20"></textarea>
+                
+                        </p>
+
+
+            </fieldset>
+            <p>
+                <input type="submit" name="submit" value="submit" id="profileForm">
+                <input type="reset" value="reset" name='reset' id="profileForm">
+
+            </p>
+    </form>
+    
+</body>
+</html>
