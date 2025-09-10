@@ -1,0 +1,36 @@
+body{
+    background-image: url("background image.png");
+    
+    background-attachment: fixed;
+    
+}
+h1{
+    font-style: italic;
+    color: blanchedalmond;
+    text-decoration: overline underline;
+}
+h2{
+
+    border-style: double;
+    border-color:#ffc0cb;
+    border-radius: 20px;
+    border-width: 12px;
+    
+}
+ h3{
+    color:green;
+}
+ul li{
+    color:white;
+}
+
+ol{
+    color:white;
+}
+p,pre{
+    color: white;
+}
+div:hover{
+    background-color: black;
+    
+}
