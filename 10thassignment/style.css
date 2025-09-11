@@ -1,0 +1,55 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+  font-family: 'Georgia', serif;
+}
+
+/* Container holding everything */
+.container {
+  position: relative;
+  width: 600px;
+  max-width: 90%;
+}
+
+/* Background box (teal) */
+.background-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #008b8b;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+/* Foreground content box */
+.content-box {
+  position: relative;
+  z-index: 2;
+}
+
+.content-box img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.content-box p {
+  background-color: #008b8b;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
