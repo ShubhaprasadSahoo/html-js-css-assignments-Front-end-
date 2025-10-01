@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript assesment 2</title>
+</head>
+<body>
+    <button onclick="prepare()">Start Routine</button>
+    <button>Reset</button>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>
+        const prepare=[''];
+        function prepareBreakfast(){
+            prepare.push('Preaprebreakfast');
+            prepare.setTimeOut(0.3);
+            console.log(prepare);
+            document.getElementById('demo2').innerHTML
+            if(prepare==true){
+                alert 
+            }
+
+        }
+
+function prepare(some){
+    document.getElementById('demo').innerHTML='Breakfast is prepared';
+}
+
+async function myFunction(){
+    return `Breakfast is prepared`;}
+
+myFunction().then(
+    function(value){prepare(value)}
+)
+
+    </script>
+    
+</body>
+</html>
